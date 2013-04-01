@@ -55,7 +55,7 @@ when "centos","redhat","fedora","amazon","scientific"
 else
   default[:mongodb][:defaults_dir] = "/etc/default"
   default[:mongodb][:root_group] = "root"
-  default[:mongodb][:package_name] = "mongodb-10gen"
+  default[:mongodb][:package_name] = "mongodb"
   default[:mongodb][:apt_repo] = "debian-sysvinit"
 
 end
